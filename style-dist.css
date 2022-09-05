@@ -1,0 +1,123 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body {
+    background-color: #E5E5E5;
+}
+
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+
+
+.input-texto {
+    margin-top: 90px;
+    color: rgba(0, 0, 255, 0.76);
+    resize: none;
+}
+.fa-solid{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.mensaje-box{
+    background-color: #E5E5E5;
+}
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    resize: none;
+
+}
+
+.mensaje::after{
+    content: "Holaaaaaaaaaaa";
+}
+
+.copiar {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 90px;
+    border-radius: 5rem;
+    border-color: rgba(0, 0, 139, 0.329);
+    font-size: 15px;
+    width: 10rem;
+    height: 2rem;
+    background-color:rgba(0, 0, 139, 0.329);
+    color: #0A3871;
+}
+
+.copiar:hover{
+    background-color: rgba(0, 0, 139, 0.192);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.botones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar{
+    border-radius: 5rem;
+    font-size: 15px;
+    width: 10rem;
+    height: 2rem;
+    background-color:darkblue;
+    color: white;
+    size: 100px;
+    border-color: darkblue;
+}
+
+.encriptar:hover{
+    background-color: rgba(0, 0, 139, 0.829);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.desencriptar {
+    margin-left: 30px;
+    border-radius: 5rem;
+    border-color: rgba(0, 0, 139, 0.329);
+    font-size: 15px;
+    width: 10rem;
+    height: 2rem;
+    background-color:rgba(0, 0, 139, 0.329);
+    color: #0A3871;
+}
+
+.desencriptar:hover{
+    background-color: rgba(0, 0, 139, 0.192);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.informacion {
+    font-size: 15px;
+    display: inline;
+    color: gray;
+}
